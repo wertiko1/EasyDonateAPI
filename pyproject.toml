@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "easydonateapi"
+version = "0.1.0"
+description = ""
+authors = ["wertiko1 <144675169+wertiko1@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.10.2"
+aiohttp = "^3.11.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
