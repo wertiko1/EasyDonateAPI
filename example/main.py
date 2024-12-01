@@ -80,5 +80,6 @@ async def main():
     await get_products_example()
 
 
+# Usage
 if __name__ == "__main__":
     asyncio.run(main())
